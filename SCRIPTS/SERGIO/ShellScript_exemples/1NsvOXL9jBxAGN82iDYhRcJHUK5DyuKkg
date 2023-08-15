@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Shellscript que mostra el funcionament de la sentencia while
+
+# Creem una variable amb el valor 1 per defecte.
+i=1;
+
+# Iterem fins que prengui el valor 10
+while `test $i -le 10`
+do
+	echo "Iteracio $i";
+	i=`expr $i + 1`
+done
+
+# No hem posat l'exit, per defecte és exit 0.

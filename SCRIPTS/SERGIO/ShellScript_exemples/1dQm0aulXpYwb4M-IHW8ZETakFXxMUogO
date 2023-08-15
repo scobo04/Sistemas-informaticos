@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Shellscript que mostra un exemple de com manipular els parametres d'un shellscript
+
+# Comprovacio de nombre de paràmetres (variable #)
+if `test $# -lt 1`
+then
+	echo "Nombre de parametres incorrecte";
+	echo "Us: $0 sumands ...";
+	exit 1;
+fi
+
+# Mostrar els caracters un a un, iterant sobre la variable *
+echo Llistat de sumands un a un
+i=1
+suma=0
+for par in $*
+do
+	echo "Parametre nombre $i: $par";
+	i=`expr $i + 1`;
+	suma=`expr $par + $suma`;
+done
+
+echo "La suma dels $i parametres es $suma";

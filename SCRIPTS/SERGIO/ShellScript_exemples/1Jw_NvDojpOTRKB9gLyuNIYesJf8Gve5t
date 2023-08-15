@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Shellscript que mostra l'us de la sentencia case
+
+# Amb la comanda date, retallem els dos primers caràcters per a avaluar-los.
+dia=`date | cut -c1-2`
+
+# En funció de cada cas, guardem un valor diferent a la variable dia
+case $dia in
+	Mo|lu|dl)
+		dia="Dilluns" ;;
+	Tu|ma|dt)
+		dia=Dimarts ;;
+	We|mi|dc)
+		dia=Dimecres ;;
+	Th|ju|dj)
+		dia=Dijous ;;
+	Fr|vi|dv)
+		dia=Divendres ;;
+	Sa|sa|ds)
+		dia=Dissabte ;;
+	Su|do|dg)
+		dia=Diumenge ;;
+	*)
+		echo Error. $dia no es cap dia conegut;
+		exit ;;
+esac
+
+# Mostrem per pantalla el dia de la setmana.
+echo Avui es $dia

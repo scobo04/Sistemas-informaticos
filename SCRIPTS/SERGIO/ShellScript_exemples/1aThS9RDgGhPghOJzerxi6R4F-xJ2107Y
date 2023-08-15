@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Shellscript que mostra el funcionament de la setencia if
+
+# Guardem a dia el resultat de l'execució.
+dia=`date | tr -s " " | cut -d" " -f3`;
+
+# Mostrem per pantalla el dia, numèricament.
+echo "Avui es dia $dia";
+
+# Si el dia és més gran que 15, estem a la segona quinzena
+# En cas contrari, estem a la primera quinzena
+if `test $dia -gt 15`
+then
+	echo "Estem a la segona quinzena del mes";
+else
+	echo "Estem a la primera quinzena del mes";
+fi
+
+# Podem posar la comanda exit (no obligatòriament)
+exit;

@@ -1,0 +1,13 @@
+# Creem una nova variable i anirem comptant tots els usuaris del fitxer /etc/passwd
+i=1;
+
+usuariActual=`whoami`
+
+for usuari in `cat /etc/passwd | cut -d: -f1`
+do
+	if `test $usuari = $usuariActual`
+		then
+			echo "El teu usuari esta en la posició $i del fitxer /etc/passwd";
+	fi
+	i=`expr $i + 1`;
+done

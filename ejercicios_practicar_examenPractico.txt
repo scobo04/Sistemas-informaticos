@@ -1,0 +1,17 @@
+1. Crea una estructura de directorios y asigna permisos: Crea una estructura de directorios compleja utilizando el comando mkdir y luego asigna permisos a cada directorio utilizando el comando chmod. Por ejemplo, puedes crear una estructura de directorios que tenga varios niveles de profundidad y asignar permisos específicos a cada directorio.
+
+2. Mueve y copia archivos y asigna permisos: Mueve y copia archivos entre diferentes directorios utilizando los comandos mv y cp y luego asigna permisos a los archivos utilizando el comando chmod. Por ejemplo, puedes mover todos los archivos de un directorio a otro utilizando el comando mv y luego asignar permisos específicos a cada archivo.
+
+3. Busca archivos y directorios y asigna permisos: Utiliza el comando find para buscar archivos y directorios que coincidan con ciertos patrones y luego asigna permisos a los archivos y directorios utilizando el comando chmod. Por ejemplo, puedes buscar todos los archivos en un directorio que tengan una extensión específica y luego asignar permisos específicos a cada archivo.
+
+4. Ordena y filtra la salida y asigna permisos: Utiliza los comandos sort y grep para ordenar y filtrar la salida de otros comandos y luego asigna permisos a los archivos y directorios utilizando el comando chmod. Por ejemplo, puedes usar el comando ls para listar todos los archivos en un directorio y luego usar el comando sort para ordenarlos alfabéticamente y luego asignar permisos específicos a cada archivo.
+
+5. Usa comandos avanzados y asigna permisos: Practica el uso de comandos avanzados como grep, awk y sed para realizar búsquedas y manipulaciones más complejas en archivos y directorios y luego asigna permisos a los archivos y directorios utilizando el comando chmod.
+
+6. Crea un script y asigna permisos: Crea un script en PowerShell o Bash que realice una tarea específica, como copiar un conjunto de archivos a un directorio de destino, y luego asigna permisos al archivo del script utilizando el comando chmod.
+
+7. Usa alias y asigna permisos: Utiliza alias para abreviar comandos largos y repetitivos y luego asigna permisos al archivo o directorio utilizando el comando chmod.
+
+8. Automatiza una tarea y asigna permisos: Crea un script que automatice una tarea que realizas con frecuencia, como la creación de una copia de seguridad de un conjunto de archivos, y luego asigna permisos al archivo del script utilizando el comando chmod.
+
+9. Trabaja en proyectos más complejos y asigna permisos: Trabaja en proyectos más complejos que involucren múltiples comandos y técnicas y luego asigna permisos a los archivos y directorios utilizados en el proyecto utilizando el comando chmod.

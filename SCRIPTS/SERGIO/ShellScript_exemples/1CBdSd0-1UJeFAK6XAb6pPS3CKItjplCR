@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Shellscript que mostra l'us de la sentencia until
+
+lectura=s
+
+# Iterarem fins que el resultat de la lectura sigui "n"
+until `test $lectura = n`
+do
+	echo -n "Vols continuar iterant (s/n)? "
+	# Llegim un valor que guardem a la variable lectura
+	read lectura
+	case $lectura in
+		s|S) # Si llegim s o S, continuem.
+		    echo "D'acord, doncs continuem!";
+	        continue ;;
+		n|N) # Si llegim n o N, sortim
+            echo "Sortim, va!";
+            break ;;
+		*) # En la resta de casos
+			echo "No he entès aquest patró!";
+			continue ;;
+	esac
+done

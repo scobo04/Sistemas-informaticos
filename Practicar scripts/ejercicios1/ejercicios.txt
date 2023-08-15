@@ -1,0 +1,53 @@
+6. Crea un script que pida al usuario su nombre y luego lo salude.
+
+7. Escribe un script que acepte un número como argumento y verifique si es par 
+   o impar.
+   
+8. Crea un script que solicite al usuario un número y luego calcule el 
+   factorial de ese número.
+   
+9. Escribe un script que lea un archivo de texto línea por línea y cuente la 
+   cantidad de líneas que contienen la palabra "hola".
+   
+10. Crea un script que solicite al usuario un número y luego imprima todos los 
+    números primos hasta ese número.
+    
+    
+1. Escribe un script que acepte un directorio como argumento y muestre un 
+   informe que incluya la cantidad total de archivos, la cantidad de archivos 
+   regulares y la cantidad de directorios en ese directorio y todos sus 
+   subdirectorios.
+
+2. Crea un script que recorra recursivamente un directorio y encuentre todos 
+   los archivos duplicados basados en su contenido. El script debería mostrar 
+   una lista de archivos duplicados encontrados.
+
+3. Escribe un script que acepte un número como argumento y genere la secuencia 
+   de Fibonacci hasta ese número.
+
+4. Crea un script que reciba un archivo de texto y cuente la frecuencia de 
+   cada palabra en el archivo. Luego, muestra las palabras más frecuentes 
+   junto con su frecuencia.
+
+5. Escribe un script que acepte un archivo de texto y encuentre y muestre 
+   todas las direcciones de correo electrónico presentes en el archivo.
+
+6. Crea un script que acepte un directorio como argumento y realice una copia 
+   de seguridad de todos los archivos modificados en los últimos 7 días en un 
+   archivo comprimido.
+
+7. Escribe un script que acepte una cadena como argumento y determine si es 
+   un palíndromo (se lee igual de adelante hacia atrás y de atrás hacia 
+   adelante).
+
+8. Crea un script que solicite al usuario un número y luego imprima la tabla 
+   de multiplicar de ese número hasta 10.
+
+9. Escribe un script que reciba un archivo de registro que contiene registros 
+   en formato CSV (valores separados por comas) y realice cálculos y 
+   estadísticas en los datos, como la suma de una columna específica o el 
+   promedio de otra columna.
+
+10. Crea un script que implemente un juego de adivinanzas en el que el usuario 
+    debe adivinar un número generado aleatoriamente por el script. El script 
+    debería proporcionar pistas al usuario para ayudarlo a adivinar.

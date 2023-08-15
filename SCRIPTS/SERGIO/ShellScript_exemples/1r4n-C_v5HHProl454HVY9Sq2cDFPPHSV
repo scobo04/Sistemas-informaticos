@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Shellscript que mostra l'us de la sentencia for
+
+# Iterem sobre tots els fitxers del directori actual (*) i executem la comanda stat
+for fitxer in *
+do
+	stat $fitxer;
+done
