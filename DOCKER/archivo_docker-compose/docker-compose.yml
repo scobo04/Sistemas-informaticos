@@ -1,0 +1,19 @@
+version: '3.1'
+services:
+  db:
+    image: my
+    container_name: letscha
+    restart: always
+    environment:
+      POSTGRES_USER: 
+      POSTGRES_PASSWORD: 
+      POSTGRES_DB: 
+    volumes:
+      -
+    expose:
+      - 1234
+    ports:
+      -
+    ports:
+      - 80:8080
+  pgadmin:
